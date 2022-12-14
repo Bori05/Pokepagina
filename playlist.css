@@ -1,0 +1,32 @@
+body { background:#222; }
+
+.spotifywrap { width:500px; height: 440px; margin:20px auto; background: #343434; border: 1px solid #141414; box-shadow: 1px 1px 10px; }
+
+.spotifysbar { width:150px; height:400px; float:left; background:#141414; padding: 20px; box-sizing:border-box; }
+.spotifysbartext { width: 110px; height: 400px; font: 700 14px roboto; color:#888; line-height: 30px; text-align: justify; }
+.spotifysbartext:hover { color: #ccc; }
+.spotifysbartext b { font: 700 14px roboto; color:#ccc; border-left: 4px solid #3ECF54; padding-left: 17px; margin-left: -20px; }
+
+.spotifymain { width:350px; height:400px; background: linear-gradient(to bottom, rgb(54, 54, 54), rgb(24, 24, 24)); float:right; padding: 30px; box-sizing:border-box; }
+
+
+.spotifyalbum { widith:100px; height:100px; float:left; padding: 3px; border: 1px solid #3ECF54; }
+.spotifyalbum img { width:100px; height:100px; }
+
+.spotifyatextwrap { width:200px; height: 100px; margin-right:-20px; float: right; padding-left: 20px; box-sizing:border-box; font: 9px roboto; color: #aaa; line-height: 20px; }
+.spotifyatextwrap b { font-weight: 400; color: #e0e0e0; }
+.spotifytitle { font: 700 20px montserrat; color:#e0e0e0; }
+.spotifybutton1 { width: 50px; padding: 5px; background: #3ECF54; font: 400 11px roboto; color: #fff; float:left; text-align: center; border-radius: 500px 500px 500px 500px; }
+.spotifybutton1:hover { background: #4DE864; }
+.spotifybutton2 { width: 80px; padding: 5px; background: #242424; font: 400 11px roboto; color: #3ECF54; border: 1px solid #ccc; float:left; margin-left: 10px; text-align: center; border-radius: 500px 500px 500px 500px; }
+
+.spotifymusicwrap { width: 300px; height: 230px; background: #242424; padding: 20px; box-sizing:border-box; overflow: auto; margin-top:130px; display: flex; flex-wrap: wrap; }
+.spotifymusicwrap::-webkit-scrollbar { width: 7px; }
+.spotifymusicwrap::-webkit-scrollbar-track { width: 5px; background: #242424; }
+.spotifymusicwrap::-webkit-scrollbar-thumb { width: 1px; background-color: #3ECF54; border-left: 3px solid #242424; border-right: 3px solid #242424; border-top: 3px solid #242424; border-bottom: 3px solid #242424; }
+.spotifymusictitle { width: 260px; height: 30px; padding: 10px; background: #242424; border-bottom: 1px solid #343434; font: 11px roboto; color: #777; box-sizing: border-box; }
+.spotifymusic { width: 260px; height: 30px; padding: 10px; background: #242424; border-bottom: 1px solid #343434; }
+.spotifymusictext { width: 100px; margin-left: 10px; box-sizing: border-box; font: 11px arial; color: #ccc; display: inline-block; }
+.spotifymusic:hover { background: #343434; }
+
+.spotifycred { width: 500px; height: 40px; font: 11px roboto; color: #777; text-align: center; padding-top: 413px; box-sizing:border-box; }
